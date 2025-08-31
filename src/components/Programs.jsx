@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets } from '../assets/assets'
+import { assets, programsData } from '../assets/assets'
 
 const Programs = () => {
   return (
@@ -18,9 +18,13 @@ const Programs = () => {
             </button>
         </div>
         {/* Programs slider container */}
-        <div>
-            <div>
-                
+        <div className='overflow-hidden'>
+            <div className='flex gap-8 transition-transform duration-500 ease-in-out'>
+                {programsData.map((program,index)=>(
+                    <div key={index} className='relative flex-shrink-0 w-full sm:w-1/4'>
+                        <img src={program.image} alt={program.title} />
+                    </div>
+                ))}
             </div>
         </div>
 

@@ -12,6 +12,9 @@ import gallery_3 from './gallery_3.jpg'
 import gallery_4 from './gallery_4.jpg'
 import gallery_5 from './gallery_5.jpg'
 import gallery_6 from './gallery_6.jpg'
+import gallery_7 from './gallery_7.jpg'
+import gallery_8 from './gallery_8.jpg'  
+import gallery_9 from './gallery_9.jpg' 
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
@@ -28,46 +31,40 @@ export const assets = {
     gallery_2,
     gallery_3,
     gallery_4,
+    gallery_5,
+    gallery_6,
+    gallery_7,
+    gallery_8,
+    gallery_9,
     left_arrow,
     right_arrow,
 }
 
-export const projectsData = [
+export const programsData = [
     {
-      title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
-      image: gallery_1
+      title: "Strength & Muscle Building",
+      description: "For those who want to build muscle, lift weights, and gain strength.",
+      image: gallery_9
     },
     {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: gallery_2
-    },
-    {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: gallery_3
-    },
-    {
-      title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
-      image: gallery_4
-    },
-    {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
+      title: "Weight Loss & Fat Burn (HIIT/Cardio)",
+      description: "High-intensity workouts, cardio training, and circuits for burning calories.",
       image: gallery_5
     },
     {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: gallery_6
+      title: "Functional & CrossFit Training",
+      description: "Full-body workouts for stamina, agility, and endurance.",
+      image: gallery_3
+    },
+    {
+      title: "Yoga & Flexibility",
+      description: "For balance, mobility, stress relief, and mindfulness.",
+      image: gallery_7
+    },
+    {
+      title: "Personal Training & Customized Plans",
+      description: "One-on-one coaching, diet plans, and tailored workouts.",
+      image: gallery_8
     },
     
   ];
