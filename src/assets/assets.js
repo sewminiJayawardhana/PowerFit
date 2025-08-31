@@ -8,12 +8,12 @@ import header_img from './header_img.png'
 import about_img from './about_img.png'
 import gallery_1 from './gallery_1.jpg'
 import gallery_2 from './gallery_2.jpg'
-import gallery_3 from './gallery_3.jpg'
+import gallery_3 from './gallery_3.png'
 import gallery_4 from './gallery_4.jpg'
-import gallery_5 from './gallery_5.jpg'
-import gallery_6 from './gallery_6.jpg'
-import gallery_7 from './gallery_7.jpg'
-import gallery_8 from './gallery_8.jpg'  
+import gallery_5 from './gallery_5.png'
+import gallery_6 from './gallery_6.png'
+import gallery_7 from './gallery_7.png'
+import gallery_8 from './gallery_8.png'  
 import gallery_9 from './gallery_9.jpg' 
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
@@ -43,22 +43,22 @@ export const assets = {
 export const programsData = [
     {
       title: "Strength & Muscle Building",
-      description: "For those who want to build muscle, lift weights, and gain strength.",
-      image: gallery_9
+      description: "Ideal for individuals aiming to build muscle, lift weights, and gain strength.",
+      image: gallery_6
     },
     {
-      title: "Weight Loss & Fat Burn (HIIT/Cardio)",
+      title: "Weight Loss & Fat Burn",
       description: "High-intensity workouts, cardio training, and circuits for burning calories.",
       image: gallery_5
     },
     {
       title: "Functional & CrossFit Training",
-      description: "Full-body workouts for stamina, agility, and endurance.",
+      description: "Engage in full-body exercises to boost stamina, agility, and overall endurance.",
       image: gallery_3
     },
     {
       title: "Yoga & Flexibility",
-      description: "For balance, mobility, stress relief, and mindfulness.",
+      description: "Practice yoga to improve balance, enhance mobility, reduce stress, and cultivate mindfulness daily.",
       image: gallery_7
     },
     {
