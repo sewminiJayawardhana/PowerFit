@@ -12,7 +12,7 @@ const Testimonails = () => {
             <div key={index} className='max-w-[340px] border shadow-lg rounded px-8 py-12 text-center'>
                 <img className='w-20 h-20 rounded-full mx-auto mb-4' src={testimonail.image} alt="" />
                 <h2 className='text-xl text-gray-700 font-medium'>{testimonail.name}</h2>
-                <p className='text-gray-500 mb-4 text-sm'>{testimonail.title}</p>
+                <p className='text-gray-500 mb-4 text-sm'>{testimonail.location}</p>
                 <div className='flex justify-center gap-1 text-red-500 mb-4'>
                   {Array.from({length:testimonail.rating},(item,index)=>(
                     <img key={index} src={assets.star_icon} alt='' />

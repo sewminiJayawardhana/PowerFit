@@ -71,27 +71,27 @@ export const programsData = [
 
   export const testimonialsData = [
     {
-        name: "Donald Jackman",
-        title: "Marketing Manager",
+        name: "Dinesh Gamage",
+        location: "Kaduwela",
         image: profile_img_1,
-        alt: "Portrait of Donald Jackman",
+        alt: "Portrait of Gamage",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "I achieved my fitness goals faster than I imagined. The trainers are amazing!I've been to a few gyms, but none compare to this one. The cleanliness and upkeep of the facility are outstanding, and they're always adding new classes and equipment to keep things fresh. "
     },
     {
         name: "Richard Nelson",
-        title: "UI/UX Designer",
+        location: "Homagama",
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "This gym has everything you could ask for. The atmosphere is incredibly positive and motivating, the community of members is supportive and friendly, and the equipment is state-of-the-art.Highly recommend for anyone"
     },
     {
-        name: "James Washington",
-        title: "Co-Founder",
+        name: "Nimesh Fernando",
+        location: "Kottawa",
         image: profile_img_3,
-        alt: "Portrait of James Washington",
+        alt: "Portrait of Fernando",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "I love this place! The trainers are not just knowledgeable, they're truly passionate about what they do and it shows. They helped me push past my limits in a way I never thought possible, and I hit my fitness goals way ahead of schedule. "
     }
 ];
