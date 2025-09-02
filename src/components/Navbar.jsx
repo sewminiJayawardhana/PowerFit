@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
           <a href="#Programs" className='cursor-pointer hover:text-gray-400'>Programs</a>
           <a href="#Gallery" className='cursor-pointer hover:text-gray-400'>Gallery</a>
-          <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
+          <a href="#Testimonails" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
         </ul>
         <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign Up</button>
         <img onClick={()=>setShowMobileMenu(true)}src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
