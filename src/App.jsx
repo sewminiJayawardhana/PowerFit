@@ -6,6 +6,7 @@ import Testimonails from './components/Testimonails'
 import Contacts from './components/Contacts'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='w-full overflow-hidden'>
@@ -15,6 +16,7 @@ const App = () => {
       <Programs/>
       <Testimonails/>
       <Contacts/>
+      <Footer/>
     </div>
   )
 }
