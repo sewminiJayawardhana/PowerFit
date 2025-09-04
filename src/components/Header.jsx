@@ -15,7 +15,7 @@ const Header = () => {
         <h2 className='text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20'>Transform Your Body, Elevate Your Life</h2>
         <div className='space-x-6 mt-16'>
           <a href="#Programs" className='border border-white px-8 py-3 rounded'>Programs</a>
-          <a href="#Contact"className='bg-orange-500 px-8 py-3 rounded'>Contact Us</a>
+          <a href="#Contacts"className='bg-orange-500 px-8 py-3 rounded'>Contact Us</a>
         </div>
       </motion.div>
     </div>

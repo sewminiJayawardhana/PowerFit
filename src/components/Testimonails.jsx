@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 const Testimonails = () => {
   return (
     <motion.div 
-      initial={{opacity: 0, x:100}}
+      initial={{opacity: 0, x:-200}}
       transition={{duration: 1}}
       whileInView={{opacity: 1, x:0}}
       viewport={{once:true}}
